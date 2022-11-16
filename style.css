@@ -1,0 +1,167 @@
+
+.brand-name {
+    color: brown;
+    font-family: cursive;}
+
+ .navbar-brand{
+        color: rgb(19, 3, 46);
+        font-family: lato; font-weight: 500;
+    }
+
+    .btn {background-color: rgb(17, 17, 148);}
+
+dropdown{background-color: rgb(17, 17, 148);}
+
+h6{color: brown;}
+
+
+/* footer */
+.footer,.footer .container{
+    background-color: #000000;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .f-sec1 p{
+    color:#888888;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.footer .f-sec1 a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer h4{
+    color:white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.footer .f-sec2 ul{
+    margin-top: 35px;
+    padding-left: 0px;
+}
+.footer .f-sec2 ul li{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    line-height: 2rem;
+
+}
+.footer .f-sec2 ul li a{
+
+    text-decoration: none;
+    color:#888888;
+}
+.footer .f-sec2 ul li a:hover i{
+    color:#f39c12;
+}
+.footer .f-sec2 ul li i{
+    margin-right: 5px;
+    color:#ffcc00;
+}
+.footer .f-sec3 .foot-tag-list{
+    padding-top: 35px;
+}
+.footer .f-sec3 .foot-tag-list span{
+    padding: 5px 20px;
+    border: 1px solid #a9a9a9;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:13px;
+    color:#a9a9a9;
+    cursor: pointer;
+}
+
+.footer .f-sec3 h4{
+    color:white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.footer .f-sec3 .portfolio-foot{
+    margin-top: 35px;
+}
+
+.footer .foot-2-sec form input{
+    background-color: #3e3f41;
+    border: solid 1px #3e3f41;
+    width: 100%;
+    margin-right: -30px;
+    padding: 20px;
+    padding-left: 30px;
+    color:#ffcc00;
+}
+.footer .foot-2-sec form input:focus {
+    outline: none;
+}
+.footer .foot-2-sec form button{
+
+    color:white;
+    background: -webkit-gradient(linear, left top, right top, from(#ffcc00), to(#ffb211));
+    background: -o-linear-gradient(left, #ffcc00 0%, #ffb211 100%);
+    background: linear-gradient(to right, #ffcc00 0%, #ffb211 100%);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    border:solid 1px #3e3f41;
+    padding:8px 40px 8px 40px;
+    background-size: 300% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.footer .foot-2-sec form button:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ffcc00), color-stop(#ffae12), color-stop(#ffcc00), to(#ff9310));
+    background-image: -o-linear-gradient(left, #ffcc00, #ffae12, #ffcc00, #ff9310);
+    background-image: linear-gradient(to right, #ffcc00, #ffae12, #ffcc00, #ff9310);
+}
+.footer .foot-2-sec form button:focus {
+    outline: none;
+}
+.footer .foot-2-sec form input::-webkit-input-placeholder {
+    padding-left: 5px;
+}
+.footer .foot-2-sec form input::-moz-placeholder {
+    padding-left: 5px;
+}
+.footer .foot-2-sec form input:-ms-input-placeholder {
+    padding-left: 5px;
+}
+.footer .foot-2-sec form input::-ms-input-placeholder {
+    padding-left: 5px;
+}
+.footer .foot-2-sec form input::placeholder {
+    padding-left: 5px;
+}
+.footer .footer-container{
+    border-bottom: dashed 3px #565659;
+    padding-bottom: 50px;
+}
+
+.footer_notes p{
+    padding-top: 50px;
+    color: #888888;
+}
+
+/*footer sec css end*/
+.dropdown-m{
+    position: absolute;
+    padding: 20px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 10px #e1e1e1;
+    box-shadow: 1px 1px 10px #e1e1e1;
+    display: none;
+}
