@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>DIGITAL VISION</title>
+ 
+    <link rel="icon" href="S:\SE\ESOFT ASSIGN\programming\Homepage\homepage\img\LOGO.JPEG.png" type="image/icon type">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/fontawesome.min.css" >
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" >
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="carousel.css" rel="stylesheet">
+
+  
+  <!---fa icons-->
+  <script src="https://kit.fontawesome.com/e9683093bd.js" crossorigin="anonymous"></script>
+  
+  <!--css link-->
+  <link rel="stylesheet" type="text/css" href="style-cart.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-lg p-3 mb-5 bg-white rounded">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+          <img
+            src="S:\SE\ESOFT ASSIGN\programming\Homepage\homepage\img\LOGO.JPEG.png"
+            height="30"
+            alt="Digital Vision"
+            loading="lazy"
+          /><p class="logo-name" href="index.html"> <strong>DIGITAL VISION</strong></P>
+        </a>
+
+        <!-- search bar -->
+        <form class="d-none d-md-flex input-group w-auto my-auto">
+            <input autocomplete="off" type="search" class="form-control rounded" placeholder='Search'
+              style="min-width: 225px" />
+            <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+          </form>
+      </div>
+
+
+
+     
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="text-reset me-3" href="file:///S:/SE/ESOFT%20ASSIGN/programming/esoft-programming-cw1/digital-vision-store/src/main/resources/templates/cart.html?">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+  
+        <!-- Notifications -->
+        
+        <!-- User Login With avatar---- Drop down is not working yet :( so pls use below "USER BUTTON" to link your sheets -->
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="S:\SE\ESOFT ASSIGN\programming\Homepage\homepage\img\business-research.jpg"
+              class="rounded-circle"
+              height="30"
+              width ="30"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Wishlist</a>
+            </li>
+            <li>
+            <li>
+                <a class="dropdown-item" href="#">My Orders</a>
+              </li>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- USER BUTTON -->
+        <!-- Login Button temporarily added to link -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              USER
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">My profile</a></li>
+              <li><a class="dropdown-item" href="#">Wishlist</a></li>
+              <li><a class="dropdown-item" href="#">My Orders</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </div>
+      </div>
+      
+    </div>
+    
+  </nav>
+  
+<!-- end of nav bar -->
+
+  <div class="row">
+    <div class="col-md-7">
+      <h3 class="text-dark">My Cart</h3>
+      <text>Not ready to checkout? Continue Shopping</text>
+      <br><br>
+      
+      <table class="table">
+        <tbody>
+          <tr>
+            
+            <td width="200"><img src="bag.avif" width="150"></td>
+            <td class="form2">
+              <h4>Product 01</h4>
+              <text>Model: SS1</text>
+              <br>
+              <text>Quantity: 1</text>
+              <h4>$99</h4>
+            </td>
+            <td class="form">
+              <br><br><br><br>
+              <i class="fa fa-trash-o" aria-hidden="true"></i>
+            </td>
+            
+          </tr>
+          <tr>
+            
+            <td width="200"><img src="bag.jpeg" width="150"></td>
+            <td class="form2">
+              <h4>Product 02</h4>
+              <text>Model: 223</text>
+              <br>
+              <text>Quantity: 1</text>
+              <h4>$99</h4>
+            </td>
+            <td class="form">
+              <br><br><br><br>
+              <i class="fa fa-trash-o" aria-hidden="true"></i>
+            </td>
+            
+          </tr>
+          
+        </tbody>
+      </table>
+      
+      <h4>Order Information</h4>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Return Policy
+              </button>
+            </h5>
+          </div>
+          
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              This is our example return policy which is everything you need to know abot our returns.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Shipping Options
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Payment Options
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-1"></div>
+    
+    <div class="col-md-4">
+      <br><br><br>
+      <form>
+        <h4>Order Summary</h4><br>
+          <input class="form-control" type="text" placeholder="Enter coupon code here"><br><br>
+          <div class="form-group row">
+          <label for="subTotal" class="col-sm-2 col-form-label">Subtotal</label>
+          <div class="col-sm-10 result">
+            <span style="float:right">
+            <input type="text" readonly class="form-control-plaintext" id="staticsubtotal" value="$200">
+          </span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="shipping" class="col-sm-2 col-form-label">Shipping</label>
+          <div class="col-sm-10 result">
+            <span style="float:right">
+            <input type="text" readonly class="form-control-plaintext" id="staticshipping" value="Calculated at next step">
+          </span>
+          </div>
+        </div>
+        <hr>
+        <div class="form-group row">
+          <label for="total" class="col-sm-2 col-form-label">Total</label>
+          <div class="col-sm-10 result">
+            <span style="float:right">
+            <input type="text" readonly class="form-control-plaintext" id="statictotal" value="$200">
+          </span>
+          </div>
+          <br><br><br>
+          <button class="btn btn-dark">Continue to checkout</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<footer class="footer ">
+  <div class="row">
+      <div class="col-sm-6 col-md-4 footer-navigation">
+          <img src="S:\SE\ESOFT ASSIGN\programming\Homepage\homepage\img\LOGO.JPEG.png" height="100" alt="logo">
+        
+          <h3 class="logo-name"><a href="#"><strong>DIGITAL VISION</strong></a></h3>
+          
+          </div>
+      <div class="col-sm-6 col-md-4 footer-contacts">
+          <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+              <p><span class="new-line-span">Colombo 04</span>Sri Lanka</p>
+          </div>
+          <div><i class="fa fa-phone footer-contacts-icon"></i>
+              <p class="footer-center-info email text-left"> 0771234567</p>
+          </div>
+          <div><i class="fa fa-envelope footer-contacts-icon"></i>
+              <p> <a href="#" target="_blank">info@digitalvision.com</a></p>
+          </div>
+      </div>
+
+      <!-- <div class="clearfix float-right"></div> -->
+      <div class="col-md-4 footer-about float-right">
+          <h4>About the company</h4>
+          <p>Best seller in the Market</p>
+     
+          <ul class="list-inline mt-4">
+              <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab  fa-2x fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
+            </ul>
+          </div>
+      </div>
+      <div id="page-content">
+          <div class="container text-center">
+            <div class="row justify-content-center">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+          <div class="container text-center">
+            <small>Copyright &copy; Digital Vision (Pvt) Ltd</small>
+          </div>
+  </div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./js/bootstrap-dropdown.js"></script>
+<script src="dropdown.js" ></script>
+<script src="dropdown.js.map" ></script>
+<script src="dropdown.js" ></script>
+<script src="dropdown.js.map" ></script>
+
+</body>
+</html>
